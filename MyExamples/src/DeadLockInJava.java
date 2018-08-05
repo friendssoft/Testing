@@ -4,6 +4,7 @@ class Shared {
 	ReentrantLock lock = new ReentrantLock();
 	ReentrantLock lock2 = new ReentrantLock();
 	ReentrantLock lock1 = new ReentrantLock();
+	ReentrantLock lock3 = new ReentrantLock();
 	void methodOne(Shared s) {
 		if (lock.tryLock()) {
 			Thread t = Thread.currentThread();
