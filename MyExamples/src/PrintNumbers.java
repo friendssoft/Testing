@@ -3,6 +3,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class PrintNumbers extends Thread {
 	volatile static int i = 1;
 	ReentrantLock lock;
+	ReentrantLock lock2;
 
 	PrintNumbers(ReentrantLock lock) {
 		this.lock = lock;
