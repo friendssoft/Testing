@@ -6,6 +6,7 @@ public class PrintNumbers extends Thread {
 	ReentrantLock lock1;
 	ReentrantLock lock3;
 	ReentrantLock lock5;
+	ReentrantLock lock4;
 
 	PrintNumbers(ReentrantLock lock) {
 		this.lock = lock;
